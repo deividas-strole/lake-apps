@@ -103,7 +103,7 @@ const pages = {
 
       <div class="team-photo-grid">
         <article class="team-member animated-card">
-          <img src="images/deividas.jpg" alt="Deividas Strole" class="rotating-team-photo" />
+          <img src="images/deividas-strole.jpg" alt="Deividas Strole" class="rotating-team-photo" />
           <h3>Deividas Strole</h3>
           <p>Developer / Software Engineer</p>
         </article>
