@@ -146,14 +146,14 @@ const pages = {
         </article>
 
         <article class="team-member animated-card">
-          <img src="images/elena.jpg" alt="Elena Strole" class="rotating-team-photo" />
-          <h3>Elena Strole</h3>
+          <img src="images/elena.jpg" alt="Elena Saf" class="rotating-team-photo" />
+          <h3>Elena Saf</h3>
           <p>Business / Designer</p>
         </article>
 
         <article class="team-member animated-card">
           <img src="images/marketing.jpg" alt="Marketing and SEO Specialist" class="rotating-team-photo" />
-          <h3>Marketing Specialist</h3>
+          <h3>Cooly</h3>
           <p>SEO / Marketing</p>
         </article>
       </div>
