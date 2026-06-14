@@ -573,3 +573,11 @@ h3 {
 .team-member:hover .rotating-team-photo {
   transform: rotate(360deg) !important;
 }
+
+.gradient-footer-text {
+  background: linear-gradient(135deg, #ff006e, #2563eb, #ffbe0b);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 800;
+}
