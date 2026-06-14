@@ -44,9 +44,9 @@ const illustrations = {
     <rect width="640" height="520" fill="white"/>
     <path d="M138 372L266 214l126 98 110-168" fill="none" stroke="#0a0a0a" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
     <circle cx="138" cy="372" r="54" fill="white" stroke="#0a0a0a" stroke-width="14"/>
-    <circle cx="266" cy="214" r="62" fill="url(#brandGradientAbout)" stroke="#0a0a0a" stroke-width="14"/>
+    <circle cx="266" cy="214" r="55" fill="url(#brandGradientAbout)" stroke="#0a0a0a" stroke-width="14"/>
     <circle cx="392" cy="312" r="52" fill="white" stroke="#0a0a0a" stroke-width="14"/>
-    <circle cx="502" cy="144" r="68" fill="url(#brandGradientAbout)" stroke="#0a0a0a" stroke-width="14"/>
+    <circle cx="502" cy="144" r="61" fill="url(#brandGradientAbout)" stroke="#0a0a0a" stroke-width="14"/>
     <rect x="92" y="94" width="168" height="24" rx="12" fill="#0a0a0a" opacity=".75"/>
     <rect x="92" y="136" width="120" height="24" rx="12" fill="#0a0a0a" opacity=".45"/>
   </svg>`,
@@ -57,7 +57,8 @@ const illustrations = {
       <rect x="96" y="138" width="448" height="284" rx="38" fill="white" stroke="#0a0a0a" stroke-width="14"/>
       <path d="M116 174l204 150 204-150" fill="none" stroke="#0a0a0a" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
       <path d="M116 390l154-122M524 390L370 268" fill="none" stroke="#0a0a0a" stroke-width="16" stroke-linecap="round"/>
-      <circle cx="486" cy="112" r="54" fill="#0a0a0a"/>
+      // <circle cx="486" cy="112" r="54" fill="#0a0a0a"/>
+      <circle cx="486" cy="112" r="54" fill="#0a0a0a" fill="url(#brandGradientAbout)" stroke="#0a0a0a" stroke-width="14" />
       <path d="M466 112h40M486 92v40" stroke="white" stroke-width="10" stroke-linecap="round"/>
     </svg>`
 };
