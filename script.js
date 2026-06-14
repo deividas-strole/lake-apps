@@ -65,26 +65,41 @@ const pages = {
       </div>
     </section>`,
   about: `
-    <section class="animated-section page-hero grid-two">
-      <div class="copy-block stagger">
-        <p class="eyebrow">About us</p>
-        <h1>A small studio with focused roles and personal attention.</h1>
-        <p class="lead">Strole Digital is a lean software startup led by a developer, designer, and marketing partner. We keep projects clear, direct, and practical.</p>
-      </div>
-      <div class="image-card floating-image">${illustrations.about}</div>
-    </section>
+  <section class="animated-section page-hero grid-two">
+    <div class="copy-block stagger">
+      <p class="eyebrow">About us</p>
+      <h1>A small studio with focused roles and personal attention.</h1>
+      <p class="lead">North Pixel Apps is a lean software startup led by a developer, designer, and marketing partner. We keep projects clear, direct, and practical.</p>
+    </div>
+    <div class="image-card floating-image">${illustrations.about}</div>
+  </section>
 
-    <section class="animated-section split-section">
-      <div class="section-heading stagger">
-        <p class="eyebrow">Team structure</p>
-        <h2>Built for speed and accountability.</h2>
-      </div>
-      <div class="timeline">
-        <div class="timeline-item animated-card"><strong>Development</strong><p>Deividas leads architecture, coding, deployment, performance, and technical maintenance.</p></div>
-        <div class="timeline-item animated-card"><strong>Business & Design</strong><p>Elena manages client communication, visual direction, layout, branding, and project organization.</p></div>
-        <div class="timeline-item animated-card"><strong>Marketing & SEO</strong><p>Our marketing partner handles search visibility, content planning, keyword strategy, and outreach.</p></div>
-      </div>
-    </section>`,
+  <section class="animated-section split-section">
+    <div class="section-heading stagger">
+      <p class="eyebrow">Team structure</p>
+      <h2>Built for speed and accountability.</h2>
+    </div>
+
+    <div class="team-grid">
+      <article class="team-card animated-card">
+        <img src="images/deividas.jpg" alt="Deividas Strole" class="team-photo" />
+        <h3>Deividas Strole</h3>
+        <p>Developer / Software Engineer</p>
+      </article>
+
+      <article class="team-card animated-card">
+        <img src="images/elena.jpg" alt="Elena Strole" class="team-photo" />
+        <h3>Elena Strole</h3>
+        <p>Business / Designer</p>
+      </article>
+
+      <article class="team-card animated-card">
+        <img src="images/marketing.jpg" alt="Marketing and SEO Specialist" class="team-photo" />
+        <h3>Marketing Specialist</h3>
+        <p>SEO / Marketing</p>
+      </article>
+    </div>
+  </section>`
   contact: `
     <section class="animated-section page-hero grid-two">
       <div class="copy-block stagger">
