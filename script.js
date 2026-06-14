@@ -10,9 +10,9 @@ const illustrations = {
     <svg viewBox="0 0 640 520" role="img" aria-label="Abstract black and white software interface illustration" xmlns="http://www.w3.org/2000/svg">
       <rect width="640" height="520" fill="white"/>
       <rect x="72" y="76" width="496" height="344" rx="34" fill="white" stroke="#0a0a0a" stroke-width="14"/>
-      <circle cx="122" cy="130" r="13" fill="#0a0a0a"/>
-      <circle cx="166" cy="130" r="13" fill="#0a0a0a"/>
-      <circle cx="210" cy="130" r="13" fill="#0a0a0a"/>
+      <circle cx="122" cy="130" r="13" fill="url(#brandGradientAbout)"/>
+      <circle cx="166" cy="130" r="13" fill="url(#brandGradientAbout)"/>
+      <circle cx="210" cy="130" r="13" fill="url(#brandGradientAbout)"/>
       <rect x="112" y="188" width="186" height="32" rx="16" fill="#0a0a0a"/>
       <rect x="112" y="250" width="416" height="24" rx="12" fill="#0a0a0a" opacity=".85"/>
       <rect x="112" y="302" width="346" height="24" rx="12" fill="#0a0a0a" opacity=".65"/>
@@ -58,7 +58,7 @@ const illustrations = {
       <path d="M116 174l204 150 204-150" fill="none" stroke="#0a0a0a" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
       <path d="M116 390l154-122M524 390L370 268" fill="none" stroke="#0a0a0a" stroke-width="16" stroke-linecap="round"/>
       // <circle cx="486" cy="112" r="54" fill="#0a0a0a"/>
-      <circle cx="486" cy="112" r="54" fill="#0a0a0a" fill="url(#brandGradientAbout)" stroke="#0a0a0a" stroke-width="14" />
+      <circle cx="486" cy="112" r="54" fill="url(#brandGradientAbout)" stroke="#0a0a0a" stroke-width="14" />
       <path d="M466 112h40M486 92v40" stroke="white" stroke-width="10" stroke-linecap="round"/>
     </svg>`
 };
