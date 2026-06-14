@@ -43,7 +43,7 @@ button { border: 0; background: none; color: inherit; cursor: pointer; }
 }
 
 .brand, .nav { display: flex; align-items: center; }
-.brand { gap: 10px; font-weight: 800; letter-spacing: -0.04em; }
+.brand { gap: 10px; font-weight: 800; }
 .brand-mark {
   display: grid;
   width: 38px;
@@ -79,14 +79,13 @@ main { min-height: 70vh; }
 .eyebrow {
   margin: 0 0 16px;
   text-transform: uppercase;
-  letter-spacing: 0.18em;
   font-size: 0.78rem;
   font-weight: 800;
 }
 h1, h2, h3, p { margin-top: 0; }
-h1 { margin-bottom: 22px; font-size: clamp(3rem, 8vw, 7.8rem); line-height: 0.92; letter-spacing: -0.02em; }
-h2 { margin-bottom: 22px; font-size: clamp(2.2rem, 5vw, 4.6rem); line-height: 0.96; letter-spacing: -0.02em; }
-h3 { margin-bottom: 14px; font-size: 1.5rem; letter-spacing: -0.02em; }
+h1 { margin-bottom: 22px; font-size: clamp(3rem, 8vw, 7.8rem); line-height: 0.92; }
+h2 { margin-bottom: 22px; font-size: clamp(2.2rem, 5vw, 4.6rem); line-height: 0.96; }
+h3 { margin-bottom: 14px; font-size: 1.5rem; }
 .lead { max-width: 620px; margin-bottom: 34px; color: #303030; font-size: clamp(1.08rem, 1.6vw, 1.3rem); line-height: 1.7; }
 .button-row { display: flex; flex-wrap: wrap; gap: 12px; }
 .button {
