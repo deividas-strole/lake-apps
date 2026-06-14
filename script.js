@@ -69,7 +69,7 @@ const pages = {
       <div class="copy-block stagger">
         <p class="eyebrow">About us</p>
         <h1>A small studio with focused roles and personal attention.</h1>
-        <p class="lead">Strole Digital is a lean software startup led by a developer, designer, and marketing partner. We keep projects clear, direct, and practical.</p>
+        <p class="lead">North Pixel Apps is a lean software startup led by a developer, designer, and marketing partner. We keep projects clear, direct, and practical.</p>
       </div>
       <div class="image-card floating-image">${illustrations.about}</div>
     </section>
