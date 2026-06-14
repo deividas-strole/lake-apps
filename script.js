@@ -113,7 +113,7 @@ const pages = {
     <section class="animated-section page-hero grid-two">
       <div class="copy-block stagger">
         <p class="eyebrow">About us</p>
-        <h1>A dedicated digital team building modern software, websites, and growth solutions.</h1>
+        <h1>Modern software. Clear results.</h1>
         <p class="lead"><p class="lead">North Pixel Apps creates modern websites, custom software, and digital growth solutions. We keep every project clear, direct, and practical.</p></p>
       </div>
 
