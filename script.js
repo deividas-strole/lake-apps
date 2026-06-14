@@ -253,12 +253,9 @@ function setupScrollRotatingTeamPhotos() {
   }
 
   function rotatePhotosOnScroll() {
-    const scrollAmount = window.scrollY;
+    const rotation = 180 + window.scrollY * 0.35;
 
-    photos.forEach((photo, index) => {
-      const speed = 0.35 + index * 0.08;
-      const rotation = 180 + scrollAmount * speed;
-
+    photos.forEach((photo) => {
       photo.style.transform = `rotate(${rotation}deg) scale(1)`;
     });
   }
