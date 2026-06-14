@@ -113,8 +113,8 @@ const pages = {
     <section class="animated-section page-hero grid-two">
       <div class="copy-block stagger">
         <p class="eyebrow">About us</p>
-        <h1>A small studio with focused roles and personal attention.</h1>
-        <p class="lead">North Pixel Apps is a lean software startup led by a developer, designer, and marketing partner. We keep projects clear, direct, and practical.</p>
+        <h1>A dedicated digital team building modern software, websites, and growth solutions.</h1>
+        <p class="lead"><p class="lead">North Pixel Apps creates modern websites, custom software, and digital growth solutions. We keep every project clear, direct, and practical.</p></p>
       </div>
 
       <div class="image-card floating-image">${illustrations.about}</div>
@@ -123,7 +123,7 @@ const pages = {
     <section class="animated-section team-section" id="our-team">
       <div class="section-heading stagger">
         <p class="eyebrow">Our Team</p>
-        <h2>Three focused roles. One clear mission.</h2>
+        <h2>Technology, design, and growth working together.</h2>
       </div>
 
       <div class="team-photo-grid">
@@ -156,7 +156,7 @@ const pages = {
       <div class="timeline">
         <div class="timeline-item animated-card">
           <strong>Development</strong>
-<p>Deividas leads software architecture, coding, deployment, performance, and technical maintenance. He holds a Bachelor’s degree in Computer Science and a Master’s degree in Software Engineering, with experience in Java, JavaScript technologies, and modern web application development.</p>        </div>
+<p>Deividas Strole leads software architecture, coding, deployment, performance, and technical maintenance. He holds a Bachelor’s degree in Computer Science and a Master’s degree in Software Engineering, with experience in Java, JavaScript technologies, and modern web application development.</p>        </div>
 
         <div class="timeline-item animated-card">
           <strong>Business & Design</strong>
