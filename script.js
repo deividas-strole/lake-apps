@@ -155,7 +155,7 @@ const pages = {
 
       <div class="timeline-item animated-card">
           <strong>Business & Design</strong>
-          <p>Elena manages client communication, visual direction, layout, branding, and project organization.</p>
+          <p>Helena Saf manages client communication, visual direction, layout, branding, and project organization. She holds Bachelor’s and Master’s degrees and has multi-year experience with corporate U.S. and international companies.</p>
       </div>
       
       <div class="timeline">
