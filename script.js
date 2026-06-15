@@ -72,7 +72,7 @@ const pages = {
     <section class="animated-section hero grid-two">
       <div class="copy-block stagger">
         <p class="eyebrow">Software • Design • SEO</p>
-        <h1>Modern websites and small business software built with clarity.</h1>
+        <h1>Modern websites and software made simple.</h1>
         <p class="lead">California-based U.S. team creating clean, fast, and practical digital products for businesses that need a stronger online presence and smarter workflows.</p>
         <div class="button-row">
           <button class="button primary" data-page="contact">Start a Project</button>
