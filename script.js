@@ -73,7 +73,7 @@ const pages = {
       <div class="copy-block stagger">
         <p class="eyebrow">Software • Design • SEO</p>
         <h1>Modern websites and small business software built with clarity.</h1>
-        <p class="lead">We create clean, fast, and practical digital products for businesses that need a stronger online presence and smarter workflows.</p>
+        <p class="lead">California-based U.S. team creating clean, fast, and practical digital products for businesses that need a stronger online presence and smarter workflows.</p>
         <div class="button-row">
           <button class="button primary" data-page="contact">Start a Project</button>
           <button class="button secondary" data-page="about">Learn More</button>
@@ -114,7 +114,7 @@ const pages = {
       <div class="copy-block stagger">
         <p class="eyebrow">About us</p>
         <h1>Modern software. Clear results.</h1>
-        <p class="lead"><p class="lead">Polar Apps creates modern websites, custom software, and digital growth solutions. We keep every project clear, direct, and practical.</p></p>
+        <p class="lead">Polar Apps is a California-based U.S. digital studio creating modern websites, custom software, and digital growth solutions. We keep every project clear, direct, and practical.</p>
       </div>
 
       <div class="image-card floating-image">${illustrations.about}</div>
