@@ -114,7 +114,7 @@ const pages = {
       <div class="copy-block stagger">
         <p class="eyebrow">About us</p>
         <h1>Modern software. Clear results.</h1>
-        <p class="lead"><p class="lead">North Pixel Apps creates modern websites, custom software, and digital growth solutions. We keep every project clear, direct, and practical.</p></p>
+        <p class="lead"><p class="lead">Polar Apps creates modern websites, custom software, and digital growth solutions. We keep every project clear, direct, and practical.</p></p>
       </div>
 
       <div class="image-card floating-image">${illustrations.about}</div>
