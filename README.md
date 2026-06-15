@@ -1,6 +1,4 @@
-# North Pixel Apps Static Website
-
-This is the simplest version of the website: no React, no Vite, no npm, no build step.
+# North Pixel Apps Static Website by Deividas Strole
 
 ## Files
 
