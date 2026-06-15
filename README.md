@@ -1,4 +1,4 @@
-# North Pixel Apps Static Website by Deividas Strole
+# North Pixel Apps Website by Deividas Strole
 
 A modern static website for **North Pixel Apps**, created by **Deividas Strole**.
 The website is built with simple front-end technologies and designed for fast deployment on **GitHub Pages**.
