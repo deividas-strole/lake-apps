@@ -113,7 +113,7 @@ const pages = {
     <section class="animated-section page-hero grid-two">
       <div class="copy-block stagger">
         <p class="eyebrow">About us</p>
-        <h1>A California-based team building modern digital products.</h1>
+        <h1>Built in California. Made for business.</h1>
         <p class="lead">Polar Apps is a California-based U.S. digital studio creating modern websites, custom software, and digital growth solutions. We keep every project clear, direct, and practical.</p>
       </div>
 
