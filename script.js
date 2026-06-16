@@ -83,19 +83,42 @@ const pages = {
     </section>
 
 
-<section class="fly-walk-section animated-section">
+<section class="fly-walk-section animated-section" aria-hidden="true">
   <div class="fly-track">
-    <div class="walking-fly" aria-hidden="true">
-      <span class="fly-wing fly-wing-left"></span>
-      <span class="fly-wing fly-wing-right"></span>
-      <span class="fly-body"></span>
-      <span class="fly-head"></span>
-      <span class="fly-leg leg-1"></span>
-      <span class="fly-leg leg-2"></span>
-      <span class="fly-leg leg-3"></span>
-      <span class="fly-leg leg-4"></span>
-      <span class="fly-leg leg-5"></span>
-      <span class="fly-leg leg-6"></span>
+    <div class="gradient-fly">
+      <svg viewBox="0 0 140 90" class="fly-svg" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="lakeFlyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#ff006e" />
+            <stop offset="50%" stop-color="#2563eb" />
+            <stop offset="100%" stop-color="#ffbe0b" />
+          </linearGradient>
+
+          <radialGradient id="wingGlow" cx="50%" cy="50%" r="60%">
+            <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9" />
+            <stop offset="100%" stop-color="#2563eb" stop-opacity="0.18" />
+          </radialGradient>
+        </defs>
+
+        <ellipse class="fly-wing wing-top" cx="57" cy="27" rx="28" ry="15" fill="url(#wingGlow)" />
+        <ellipse class="fly-wing wing-bottom" cx="57" cy="61" rx="28" ry="15" fill="url(#wingGlow)" />
+
+        <ellipse cx="76" cy="45" rx="30" ry="17" fill="url(#lakeFlyGradient)" />
+        <circle cx="108" cy="42" r="13" fill="url(#lakeFlyGradient)" />
+
+        <circle cx="113" cy="38" r="3.5" fill="#ffffff" opacity="0.95" />
+        <circle cx="114" cy="38" r="1.5" fill="#111111" opacity="0.75" />
+
+        <path class="fly-leg leg-a" d="M66 58 C55 68, 43 70, 34 78" />
+        <path class="fly-leg leg-b" d="M76 61 C68 73, 60 78, 52 84" />
+        <path class="fly-leg leg-c" d="M88 58 C86 70, 84 78, 78 86" />
+
+        <path class="fly-leg leg-d" d="M66 32 C55 22, 43 20, 34 12" />
+        <path class="fly-leg leg-e" d="M76 29 C68 17, 60 12, 52 6" />
+        <path class="fly-leg leg-f" d="M88 32 C86 20, 84 12, 78 4" />
+
+        <path d="M119 40 C127 36, 132 35, 136 36" stroke="#2563eb" stroke-width="3" stroke-linecap="round" fill="none" />
+      </svg>
     </div>
   </div>
 </section>
