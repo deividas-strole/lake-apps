@@ -165,7 +165,7 @@ const pages = {
        
         <div class="timeline-item animated-card">
           <strong>Marketing & SEO</strong>
-          <p>Our marketing partner handles search visibility, content planning, keyword strategy, and outreach.</p>
+          <p>Our marketing partner combines human strategy with AI-powered research and analysis to improve search visibility, content planning, keyword strategy, outreach, and measurable digital growth.</p>
         </div>
       </div>
     </section>`,
