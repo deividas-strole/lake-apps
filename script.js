@@ -91,8 +91,8 @@ const pages = {
       <div class="cards">
         <article class="card animated-card">
           <span>01</span>
-          <h3>Websites</h3>
-          <p>Minimal, responsive, SEO-ready websites for small businesses and professional brands.</p>
+          <h3>Websites & AI</h3>
+          <p>Modern, responsive websites with practical AI features, SEO-ready structure, and clean design for businesses.</p>
         </article>
 
         <article class="card animated-card">
