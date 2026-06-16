@@ -183,6 +183,7 @@ const pages = {
 
     <section class="animated-section contact-panel">
       <form class="contact-form" id="contact-form">
+       <input type="hidden" name="access_key" value="b33b0ab6-4525-4fdb-a808-45d3b8eb6a6f" />
         <label>
           Name
           <input type="text" name="name" placeholder="Your name" />
@@ -229,14 +230,44 @@ function renderPage() {
     );
   });
 
-  const form = document.querySelector('#contact-form');
+const form = document.querySelector('#contact-form');
 
-  if (form) {
-    form.addEventListener('submit', (event) => {
-      event.preventDefault();
-      alert('Demo form only. Connect this form to your email service or backend later.');
-    });
-  }
+if (form) {
+  form.addEventListener('submit', async (event) => {
+    event.preventDefault();
+
+    const formData = new FormData(form);
+    const submitButton = form.querySelector('button[type="submit"]');
+
+    if (submitButton) {
+      submitButton.disabled = true;
+      submitButton.textContent = 'Sending...';
+    }
+
+    try {
+      const response = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        body: formData
+      });
+
+      const result = await response.json();
+
+      if (result.success) {
+        alert('Thank you. Your message has been sent.');
+        form.reset();
+      } else {
+        alert('Something went wrong. Please try again or email us directly.');
+      }
+    } catch (error) {
+      alert('Something went wrong. Please try again or email us directly.');
+    } finally {
+      if (submitButton) {
+        submitButton.disabled = false;
+        submitButton.textContent = 'Send Message';
+      }
+    }
+  });
+}
 
   observeAnimatedSections();
   setupScrollRotatingTeamPhotos();
