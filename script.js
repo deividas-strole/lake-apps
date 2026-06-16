@@ -184,6 +184,9 @@ const pages = {
     <section class="animated-section contact-panel">
       <form class="contact-form" id="contact-form">
        <input type="hidden" name="access_key" value="b33b0ab6-4525-4fdb-a808-45d3b8eb6a6f" />
+        <input type="hidden" name="subject" value="Inquiry from Lake Apps" />
+        <input type="hidden" name="from_name" value="Lake Apps" />
+        <input type="checkbox" name="botcheck" class="hidden" style="display: none;" />
         <label>
           Name
           <input type="text" name="name" placeholder="Your name" />
