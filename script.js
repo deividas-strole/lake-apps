@@ -252,13 +252,16 @@ if (form) {
 
       const result = await response.json();
 
+      console.log('Web3Forms response:', result);
+
       if (result.success) {
         alert('Thank you. Your message has been sent.');
         form.reset();
       } else {
-        alert('Something went wrong. Please try again or email us directly.');
+        alert(result.message || 'Something went wrong. Please try again or email us directly.');
       }
     } catch (error) {
+      console.error('Web3Forms error:', error);
       alert('Something went wrong. Please try again or email us directly.');
     } finally {
       if (submitButton) {
