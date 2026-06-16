@@ -82,6 +82,7 @@ const pages = {
       <div class="image-card floating-image">${illustrations.home}</div>
     </section>
 
+
 <section class="fly-walk-section animated-section">
   <div class="fly-track">
     <div class="walking-fly" aria-hidden="true">
@@ -295,6 +296,7 @@ if (form) {
 
   observeAnimatedSections();
   setupScrollRotatingTeamPhotos();
+  setupWalkingFly();
 
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
@@ -349,4 +351,52 @@ if (!window.location.hash) {
   window.location.hash = '#/';
 } else {
   renderPage();
+}
+
+// Walking fly
+
+function setupWalkingFly() {
+  const flySection = document.querySelector('.fly-walk-section');
+  const fly = document.querySelector('.walking-fly');
+
+  if (!flySection || !fly) {
+    return;
+  }
+
+  let lastScrollY = window.scrollY;
+
+  function moveFlyOnScroll() {
+    const sectionRect = flySection.getBoundingClientRect();
+    const windowHeight = window.innerHeight;
+
+    const scrollingDown = window.scrollY > lastScrollY;
+
+    if (scrollingDown) {
+      fly.classList.remove('facing-left');
+    } else {
+      fly.classList.add('facing-left');
+    }
+
+    const progress = 1 - sectionRect.top / windowHeight;
+    const limitedProgress = Math.min(Math.max(progress, 0), 1);
+
+    const trackWidth = flySection.offsetWidth;
+    const flyWidth = fly.offsetWidth;
+    const maxMove = trackWidth - flyWidth;
+
+    const x = limitedProgress * maxMove;
+
+    if (scrollingDown) {
+      fly.style.left = `${x}px`;
+    } else {
+      fly.style.left = `${maxMove - x}px`;
+    }
+
+    lastScrollY = window.scrollY;
+  }
+
+  window.removeEventListener('scroll', moveFlyOnScroll);
+  window.addEventListener('scroll', moveFlyOnScroll);
+
+  moveFlyOnScroll();
 }
