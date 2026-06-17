@@ -386,12 +386,29 @@ function setupWalkingFly() {
     return;
   }
 
+  const startOffset = -80;
+  const speed = 1.1;
+
   let lastScrollY = window.scrollY;
-  let flyX = Number(fly.dataset.flyX || 0);
+  let flyX = startOffset;
+
+  fly.dataset.flyX = String(flyX);
+  fly.style.setProperty('--fly-x', `${flyX}px`);
+  fly.classList.add('facing-right');
 
   function moveFlyOnScroll() {
     const currentScrollY = window.scrollY;
     const scrollDifference = currentScrollY - lastScrollY;
+
+    const sectionRect = flySection.getBoundingClientRect();
+    const sectionIsVisible =
+      sectionRect.top < window.innerHeight &&
+      sectionRect.bottom > 0;
+
+    if (!sectionIsVisible) {
+      lastScrollY = currentScrollY;
+      return;
+    }
 
     if (scrollDifference === 0) {
       return;
@@ -401,8 +418,8 @@ function setupWalkingFly() {
     const flyWidth = fly.offsetWidth;
     const maxMove = Math.max(trackWidth - flyWidth, 0);
 
-    flyX += scrollDifference * 0.8;
-    flyX = Math.max(0, Math.min(flyX, maxMove));
+    flyX += scrollDifference * speed;
+    flyX = Math.max(startOffset, Math.min(flyX, maxMove));
 
     fly.dataset.flyX = String(flyX);
     fly.style.setProperty('--fly-x', `${flyX}px`);
@@ -417,9 +434,6 @@ function setupWalkingFly() {
 
     lastScrollY = currentScrollY;
   }
-
-  fly.classList.add('facing-right');
-  fly.style.setProperty('--fly-x', `${flyX}px`);
 
   window.removeEventListener('scroll', moveFlyOnScroll);
   window.addEventListener('scroll', moveFlyOnScroll);
