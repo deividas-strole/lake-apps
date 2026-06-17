@@ -386,7 +386,7 @@ function setupWalkingFly() {
     return;
   }
 
-  const startOffset = -50;
+  const startOffset = -0;
   const speed = window.innerWidth <= 700 ? 0.35 : 0.8;
 
   let lastScrollY = window.scrollY;
