@@ -386,8 +386,10 @@ function setupWalkingFly() {
     return;
   }
 
-  const startOffset = -40;
-  const speed = window.innerWidth <= 700 ? 0.35 : 0.8;
+const isMobile = window.innerWidth <= 700;
+const startOffset = isMobile ? -70 : -40;
+const speed = isMobile ? 0.12 : 0.8;
+const enterPoint = isMobile ? 0.95 : 1.15;
 
   let lastScrollY = window.scrollY;
   let flyX = startOffset;
@@ -408,9 +410,9 @@ function setupWalkingFly() {
 
     const sectionRect = flySection.getBoundingClientRect();
 
-    const sectionJustEntered =
-      sectionRect.top < window.innerHeight * 1.15 &&
-      sectionRect.bottom > 0;
+  const sectionJustEntered =
+  sectionRect.top < window.innerHeight * enterPoint &&
+  sectionRect.bottom > 0;
 
     if (!sectionJustEntered) {
       hasEnteredScreen = false;
