@@ -249,6 +249,29 @@ const pages = {
 
         <button class="button primary" type="submit">Send Message</button>
       </form>
+      <div class="cattails-decor" aria-hidden="true">
+      <div class="cattail cattail-1">
+        <span class="cattail-leaf leaf-left"></span>
+        <span class="cattail-leaf leaf-right"></span>
+        <span class="cattail-stem"></span>
+        <span class="cattail-head"></span>
+      </div>
+
+      <div class="cattail cattail-2">
+        <span class="cattail-leaf leaf-left"></span>
+        <span class="cattail-leaf leaf-right"></span>
+        <span class="cattail-stem"></span>
+        <span class="cattail-head"></span>
+      </div>
+
+      <div class="cattail cattail-3">
+        <span class="cattail-leaf leaf-left"></span>
+        <span class="cattail-leaf leaf-right"></span>
+        <span class="cattail-stem"></span>
+        <span class="cattail-head"></span>
+      </div>
+    </div>
+  </div>
     </section>`
 };
 
