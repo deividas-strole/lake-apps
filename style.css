@@ -702,13 +702,15 @@ h3 {
 
 .cattails-decor {
   position: relative;
-  height: 150px;
-  margin-top: 12px;
+  height: 115px;
+  margin-top: -10px;
+  margin-bottom: -34px;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  gap: 20px;
-  padding-right: 8px;
+  gap: 16px;
+  padding-right: 0;
+  transform: translateX(28px);
   overflow: visible;
 }
 
@@ -816,12 +818,14 @@ h3 {
 
 @media (max-width: 700px) {
   .cattails-decor {
-    height: 110px;
-    gap: 12px;
-    margin-top: 10px;
+    height: 90px;
+    gap: 10px;
+    margin-top: -6px;
+    margin-bottom: -28px;
     padding-right: 0;
+    transform: translateX(16px);
   }
-
+  
   .cattail {
     width: 42px;
     height: 95px;
