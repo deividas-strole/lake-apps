@@ -690,7 +690,9 @@ h3 {
 
   /* Frog jumping */
 
-  .frog-game-section {
+  /* Frog mini game */
+
+.frog-game-section {
   margin-top: 56px;
 }
 
@@ -702,80 +704,82 @@ h3 {
 
 .frog-pond {
   position: relative;
-  height: 180px;
+  height: 190px;
   margin-top: 28px;
   border: 2px solid rgba(10, 10, 10, 0.08);
   border-radius: 34px;
   overflow: hidden;
   background:
-    radial-gradient(circle at 20% 30%, rgba(255, 0, 110, 0.08), transparent 22%),
-    radial-gradient(circle at 55% 55%, rgba(37, 99, 235, 0.09), transparent 28%),
-    radial-gradient(circle at 85% 35%, rgba(255, 190, 11, 0.1), transparent 24%),
+    radial-gradient(circle at 20% 30%, rgba(255, 0, 110, 0.08), transparent 24%),
+    radial-gradient(circle at 55% 55%, rgba(37, 99, 235, 0.1), transparent 30%),
+    radial-gradient(circle at 85% 35%, rgba(255, 190, 11, 0.12), transparent 26%),
     #ffffff;
   box-shadow: 0 18px 50px rgba(10, 10, 10, 0.08);
 }
 
 .lily-pad {
   position: absolute;
-  bottom: 32px;
-  width: 58px;
-  height: 34px;
+  width: 64px;
+  height: 38px;
   border-radius: 50%;
   background: linear-gradient(135deg, #ff006e, #2563eb, #ffbe0b);
-  opacity: 0.85;
-  box-shadow: 0 8px 18px rgba(37, 99, 235, 0.18);
+  box-shadow: 0 8px 18px rgba(37, 99, 235, 0.2);
 }
 
 .lily-pad::after {
   content: "";
   position: absolute;
-  top: 6px;
-  right: 7px;
-  width: 16px;
-  height: 12px;
+  top: 7px;
+  right: 8px;
+  width: 18px;
+  height: 14px;
   background: #ffffff;
   clip-path: polygon(100% 0, 0 50%, 100% 100%);
-  opacity: 0.8;
+  opacity: 0.85;
 }
 
 .pad-1 {
   left: 8%;
+  bottom: 34px;
 }
 
 .pad-2 {
   left: 28%;
-  bottom: 62px;
+  bottom: 70px;
 }
 
 .pad-3 {
   left: 48%;
-  bottom: 36px;
+  bottom: 38px;
 }
 
 .pad-4 {
   left: 68%;
-  bottom: 66px;
+  bottom: 72px;
 }
 
 .pad-5 {
   left: 86%;
-  bottom: 34px;
+  bottom: 36px;
 }
 
 .frog-player {
   position: absolute;
   left: 8%;
-  bottom: 68px;
-  width: 54px;
-  height: 54px;
+  bottom: 72px;
+  width: 56px;
+  height: 56px;
   border: 0;
   border-radius: 50%;
   background: #ffffff;
   font-size: 2rem;
   cursor: pointer;
-  transform: translateX(0) translateY(0);
-  transition: left 0.45s ease, bottom 0.45s ease, transform 0.25s ease;
-  box-shadow: 0 12px 26px rgba(10, 10, 10, 0.15);
+  z-index: 5;
+  box-shadow: 0 12px 26px rgba(10, 10, 10, 0.18);
+  transition:
+    left 0.45s ease,
+    bottom 0.45s ease,
+    transform 0.25s ease;
 }
 
 .frog-player:hover {
@@ -783,7 +787,7 @@ h3 {
 }
 
 .frog-player.jumping {
-  transform: translateY(-22px) scale(1.08);
+  transform: translateY(-24px) scale(1.08);
 }
 
 .frog-message {
@@ -802,13 +806,13 @@ h3 {
   }
 
   .frog-pond {
-    height: 150px;
+    height: 155px;
     border-radius: 24px;
   }
 
   .lily-pad {
-    width: 44px;
-    height: 27px;
+    width: 46px;
+    height: 28px;
   }
 
   .frog-player {
@@ -819,26 +823,26 @@ h3 {
 
   .pad-1 {
     left: 5%;
+    bottom: 28px;
   }
 
   .pad-2 {
     left: 26%;
+    bottom: 58px;
   }
 
   .pad-3 {
     left: 47%;
+    bottom: 30px;
   }
 
   .pad-4 {
     left: 68%;
+    bottom: 60px;
   }
 
   .pad-5 {
     left: 84%;
+    bottom: 30px;
   }
 }
-
-  .gradient-fly {
-    width: 74px;
-    height: 50px;
-  }
