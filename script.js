@@ -255,7 +255,7 @@ const pages = {
   <div class="frog-game">
     <div class="section-heading stagger">
       <p class="eyebrow">Lake Break</p>
-      <h2>Help the frog reach the last lily and get 25% off your project!</h2>
+      <h2>Reach the last lily for 25% off!</h2>
       <p>Tap the frog to jump across the lily pads.</p>
     </div>
 
