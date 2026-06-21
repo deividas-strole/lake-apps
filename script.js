@@ -517,3 +517,60 @@ if (!window.location.hash) {
 } else {
   renderPage();
 }
+
+// Frog jumping
+
+function setupFrogGame() {
+  const frog = document.querySelector('#frog-player');
+  const message = document.querySelector('#frog-message');
+  const resetButton = document.querySelector('#frog-reset');
+
+  if (!frog || !message || !resetButton) {
+    return;
+  }
+
+  const positions = [
+    { left: '8%', bottom: '68px', message: 'Good start! Keep jumping.' },
+    { left: '28%', bottom: '98px', message: 'Nice jump. The lake is getting closer.' },
+    { left: '48%', bottom: '72px', message: 'Halfway there.' },
+    { left: '68%', bottom: '102px', message: 'Almost at the lake.' },
+    { left: '86%', bottom: '70px', message: 'The frog made it to the lake. Ready to build something?' }
+  ];
+
+  let currentStep = 0;
+
+  function moveFrog() {
+    const position = positions[currentStep];
+
+    frog.classList.add('jumping');
+
+    setTimeout(() => {
+      frog.style.left = position.left;
+      frog.style.bottom = position.bottom;
+      message.textContent = position.message;
+    }, 120);
+
+    setTimeout(() => {
+      frog.classList.remove('jumping');
+    }, 420);
+  }
+
+  frog.addEventListener('click', () => {
+    if (currentStep < positions.length - 1) {
+      currentStep += 1;
+      moveFrog();
+    } else {
+      message.textContent = 'The frog is already at the lake. Send us your project idea.';
+    }
+  });
+
+  resetButton.addEventListener('click', () => {
+    currentStep = 0;
+    frog.style.left = positions[0].left;
+    frog.style.bottom = positions[0].bottom;
+    message.textContent = 'Tap the frog to start.';
+  });
+
+  frog.style.left = positions[0].left;
+  frog.style.bottom = positions[0].bottom;
+}
