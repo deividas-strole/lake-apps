@@ -855,5 +855,14 @@ h3 {
   box-shadow: 4px 4px 0 #0a0a0a;
 }
 
+.brand-frog {
+  width: 42px;
+  height: 34px;
+  display: block;
+}
 
+.frog-player {
+  display: grid;
+  place-items: center;
+}
   
