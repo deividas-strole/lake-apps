@@ -556,11 +556,11 @@ function setupFrogGame() {
   }
 
   const positions = [
-    { left: '9%', bottom: '68px', message: 'Good start! Keep jumping.' },
-    { left: '29%', bottom: '98px', message: 'Nice jump. The lake is getting closer.' },
-    { left: '49%', bottom: '72px', message: 'Halfway there.' },
-    { left: '69%', bottom: '102px', message: 'Almost at the lake.' },
-    { left: '87%', bottom: '70px', message: 'The frog made it to the last lily. Your 25% discount code: FROG2026' }
+    { left: '9%', bottom: '68px', message: '' },
+    { left: '29%', bottom: '98px', message: '' },
+    { left: '49%', bottom: '72px', message: '' },
+    { left: '69%', bottom: '102px', message: '' },
+    { left: '87%', bottom: '70px', message: 'Kva kva! Your 25% discount code: FROG2026' }
   ];
 
   let currentStep = 0;
