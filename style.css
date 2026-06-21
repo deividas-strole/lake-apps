@@ -778,7 +778,7 @@ h3 {
   box-shadow: none;
   display: grid;
   place-items: center;
-  transform: translateX(-50%);
+  transform: translateX(-18%);
   transition:
     left 0.45s ease,
     bottom 0.45s ease,
@@ -786,11 +786,11 @@ h3 {
 }
 
 .frog-player:hover {
-  transform: translateX(-50%) translateY(-4px) scale(1.05);
+  transform: translateX(-18%) translateY(-4px) scale(1.05);
 }
 
 .frog-player.jumping {
-  transform: translateX(-50%) translateY(-24px) scale(1.08);
+  transform: translateX(-18%) translateY(-24px) scale(1.08);
 }
 
 .frog-message {
