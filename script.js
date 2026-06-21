@@ -560,7 +560,7 @@ function setupFrogGame() {
     { left: '29%', bottom: '98px', message: 'Nice jump. The lake is getting closer.' },
     { left: '49%', bottom: '72px', message: 'Halfway there.' },
     { left: '69%', bottom: '102px', message: 'Almost at the lake.' },
-    { left: '88%', bottom: '70px', message: 'The frog made it to the last lily. Your 25% discount code: FROG2026' }
+    { left: '87%', bottom: '70px', message: 'The frog made it to the last lily. Your 25% discount code: FROG2026' }
   ];
 
   let currentStep = 0;
