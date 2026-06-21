@@ -249,6 +249,36 @@ const pages = {
 
     <button class="button primary" type="submit">Send Message</button>
   </form>
+</section>
+
+<section class="animated-section frog-game-section">
+  <div class="frog-game">
+    <div class="section-heading stagger">
+      <p class="eyebrow">Lake Break</p>
+      <h2>Help the frog reach the lake.</h2>
+      <p>Tap the frog to jump across the lily pads.</p>
+    </div>
+
+    <div class="frog-pond" id="frog-pond">
+      <div class="lily-pad pad-1"></div>
+      <div class="lily-pad pad-2"></div>
+      <div class="lily-pad pad-3"></div>
+      <div class="lily-pad pad-4"></div>
+      <div class="lily-pad pad-5"></div>
+
+      <button class="frog-player" id="frog-player" type="button" aria-label="Make frog jump">
+        🐸
+      </button>
+    </div>
+
+    <p class="frog-message" id="frog-message">
+      Tap the frog to start.
+    </p>
+
+    <button class="button secondary frog-reset" id="frog-reset" type="button">
+      Play Again
+    </button>
+  </div>
 </section>`
 };
 
