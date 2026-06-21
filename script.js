@@ -267,8 +267,32 @@ const pages = {
       <div class="lily-pad pad-5"></div>
 
       <button class="frog-player" id="frog-player" type="button" aria-label="Make frog jump">
-        🐸
-      </button>
+  <svg class="brand-frog" viewBox="0 0 120 90" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <defs>
+      <linearGradient id="frogBrandGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#ff006e" />
+        <stop offset="50%" stop-color="#2563eb" />
+        <stop offset="100%" stop-color="#ffbe0b" />
+      </linearGradient>
+    </defs>
+
+    <circle cx="35" cy="28" r="18" fill="url(#frogBrandGradient)" />
+    <circle cx="85" cy="28" r="18" fill="url(#frogBrandGradient)" />
+
+    <ellipse cx="60" cy="52" rx="42" ry="30" fill="url(#frogBrandGradient)" />
+
+    <circle cx="35" cy="24" r="6" fill="#ffffff" />
+    <circle cx="85" cy="24" r="6" fill="#ffffff" />
+    <circle cx="36" cy="25" r="2.5" fill="#0a0a0a" />
+    <circle cx="84" cy="25" r="2.5" fill="#0a0a0a" />
+
+    <path d="M43 56 C52 66, 68 66, 77 56" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" />
+
+    <circle cx="48" cy="47" r="3" fill="#ffffff" opacity="0.75" />
+    <circle cx="72" cy="47" r="3" fill="#ffffff" opacity="0.75" />
+  </svg>
+</button>
+
     </div>
 
     <p class="frog-message" id="frog-message">
