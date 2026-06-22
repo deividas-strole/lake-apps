@@ -255,7 +255,7 @@ const pages = {
   <div class="frog-game">
     <div class="section-heading stagger">
       <p class="eyebrow">Lake Break</p>
-      <h2>Reach the last lily for 25% off!</h2>
+      <h2>Reach the last lily to unlock 25% off!</h2>
     </div>
 
     <div class="frog-pond" id="frog-pond">
@@ -562,14 +562,14 @@ function setupFrogGame() {
         { left: '26%', bottom: '92px', message: '' },
         { left: '47%', bottom: '64px', message: '' },
         { left: '68%', bottom: '94px', message: '' },
-        { left: '84%', bottom: '64px', message: 'Kva kva! 25% off your first project: FROG2026' }
+        { left: '84%', bottom: '64px', message: 'Kva kva! 25% off first project code: LAKE25' }
       ]
     : [
         { left: '9%', bottom: '68px', message: '' },
         { left: '29%', bottom: '106px', message: '' },
         { left: '49%', bottom: '72px', message: '' },
         { left: '69%', bottom: '110px', message: '' },
-        { left: '87%', bottom: '70px', message: 'Kva kva! 25% off your first project: FROG2026' }
+        { left: '87%', bottom: '70px', message: 'Kva kva! 25% off first project code: LAKE25' }
       ];
 
   let currentStep = 0;
