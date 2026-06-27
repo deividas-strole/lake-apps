@@ -75,7 +75,8 @@ The Contact section includes a simple front-end form layout. The form is current
 * [YouTube](https://youtube.com/@deividas-strole)
 * [Dev.to](https://dev.to/deividas-strole)
 * [Medium](https://medium.com/@deividas-strole)
-* [X](https://x.com/deividasstrole)
+* [X](https://x.com/deividasstrole) 
+* [Lake Apps] (https://lakeapps.com)
 
 If you enjoyed this project, consider starring the repository to support the work of **Deividas Strole**.
 
