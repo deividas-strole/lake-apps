@@ -5,7 +5,7 @@ The website is built with simple front-end technologies and designed for fast de
 
 ## Overview
 
-Lake Apps is a digital brand focused on modern websites, custom software, and digital growth solutions. This static website presents the company’s services, team structure, and contact information in a clean, professional, and responsive design
+Lake Apps is a digital brand focused on modern websites, custom software, and digital growth solutions. This static website presents the company’s services, team structure, and contact information in a clean, professional, and responsive design.
 
 The project uses a minimalist black-and-white visual style with electric gradient accents inspired by the following color palette:
 
