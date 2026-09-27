@@ -3,7 +3,7 @@
 A modern static website for **Lake Apps**, created by **Deividas Strole**.
 The website is built with simple front-end technologies and designed for fast deployment on **GitHub Pages**.
 
-## Overview
+## Overview:
 
 Lake Apps is a digital brand focused on modern websites, custom software, and digital growth solutions. This static website presents the company’s services, team structure, and contact information in a clean, professional, and responsive design.
 
