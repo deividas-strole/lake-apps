@@ -13,7 +13,7 @@ The project uses a minimalist black-and-white visual style with electric gradien
 linear-gradient(135deg, #ff006e, #2563eb, #ffbe0b)
 ```
 
-## Features
+## Features:
 
 * Static website with no build tools required
 * Home, About, and Contact sections
